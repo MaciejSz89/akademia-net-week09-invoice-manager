@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Strona główna";
+}
+
+<h1 class="mb-3">Strona główna</h1>
+
+<button class="btn btn-primary mb-3"
+        onclick='window.location.href="@Url.Action("Invoices", "Home")"'>
+    Faktury
+</button>
+
+<button class="btn btn-primary mb-3"
+        onclick='window.location.href="@Url.Action("Clients", "Home")"'>
+    Klienci
+</button>
+
